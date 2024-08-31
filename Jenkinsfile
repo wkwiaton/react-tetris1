@@ -24,6 +24,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing...'
+                sh 'npm update @testing-library/react'
                 sh 'npm test'
 	    }
             post {
