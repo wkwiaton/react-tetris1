@@ -1,0 +1,2 @@
+FROM tetris
+CMD ["npm","test"]
